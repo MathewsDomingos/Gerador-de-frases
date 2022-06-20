@@ -88,6 +88,70 @@ footer svg {
   margin-bottom: 20px;
   padding: 20px 20px;
   z-index: 999;
+  transition: filter 0.5s;
+}
+
+.share {
+  margin-bottom: 10px;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 var(--primary-color);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid var(--primary-color);
+  margin-bottom: 30px;
+  padding: 20px 20px;
+  z-index: 999;
+  transition: filter 0.5s;
+}
+
+.whatsapp-share-button{
+  display: inline-block;            
+  width: 32px;
+  height: 32px;
+  margin: 5px;
+  background-size: 100% 100%; /* ou 'contain' */
+  background-image: url("./whatsapp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.facebook-share-button{
+  display: inline-block;            
+  width: 32px;
+  height: 32px;
+  margin: 5px;
+  background-size: 100% 100%; /* ou 'contain' */
+  background-image: url("./facebook.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.twitter-share-button{
+  display: inline-block;            
+  width: 32px;
+  height: 32px;
+  margin: 5px;
+  background-size: 100% 100%; /* ou 'contain' */
+  background-image: url("./twitter.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.linkedin-share-button{
+  display: inline-block;            
+  width: 32px;
+  height: 32px;
+  margin: 5px;
+  background-size: 100% 100%; /* ou 'contain' */
+  background-image: url("./linkedin.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#whatsApp img {
+  padding: 5px;
+  cursor: pointer;
 }
 
 #content {
