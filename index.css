@@ -111,7 +111,7 @@ footer svg {
   height: 32px;
   margin: 5px;
   background-size: 100% 100%; /* ou 'contain' */
-  background-image: url("./whatsapp.png");
+  background-image: url("whatsapp.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -122,7 +122,7 @@ footer svg {
   height: 32px;
   margin: 5px;
   background-size: 100% 100%; /* ou 'contain' */
-  background-image: url("./facebook.png");
+  background-image: url("facebook.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -133,7 +133,7 @@ footer svg {
   height: 32px;
   margin: 5px;
   background-size: 100% 100%; /* ou 'contain' */
-  background-image: url("./twitter.png");
+  background-image: url("twitter.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -144,7 +144,7 @@ footer svg {
   height: 32px;
   margin: 5px;
   background-size: 100% 100%; /* ou 'contain' */
-  background-image: url("./linkedin.png");
+  background-image: url("linkedin.png");
   background-repeat: no-repeat;
   background-position: center;
 }
