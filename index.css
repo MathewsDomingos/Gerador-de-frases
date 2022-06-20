@@ -16,7 +16,8 @@ getwaves.io*/
 }
 
 :root {
-  --primary-color: hsl(271, 76%, 53%);
+  --primary-color: hsl(41, 76%, 53%);
+  /*hsl(271, 76%, 53%)*/
   --background-color: hsl(0, 0%, 0%);
   --color-white: hsl(0, 0%, 100%);
   --neumorphism-color-1: hsl(279, 100%, 62%);
