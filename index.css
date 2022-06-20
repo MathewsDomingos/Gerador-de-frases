@@ -1,0 +1,114 @@
+/*
+Neumorphism.io
+getwaves.io*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar { 
+	display: none;
+}
+::selection {
+  background-color: var(--primary-color);
+  color: var(--color-white);
+}
+
+:root {
+  --primary-color: hsl(271, 76%, 53%);
+  --background-color: hsl(0, 0%, 0%);
+  --color-white: hsl(0, 0%, 100%);
+  --neumorphism-color-1: hsl(279, 100%, 62%);
+  --neumorphism-color-2: hsl(271, 68%, 34%);
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--color-white);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+  text-decoration: underline wavy var(--neumorphism-color-1);
+  margin-bottom: 30px;
+
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+
+button {
+  display: block;
+  width: 100%;
+
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 4px;
+
+  border-radius: 50px;
+  background: #8a2ce2;
+  box-shadow:  -10px -10px 20px #581c91, 0px 10px 20px #bc3cff;
+}
+
+button {
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--color-white);
+  transition: filter 0.2s;
+  margin-bottom: 40px;
+}
+
+/* pseudo-class :hover */
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+footer svg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: -185px;
+}
+
+.glassmorphism {
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 var(--primary-color);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid var(--primary-color);
+  margin-bottom: 20px;
+  padding: 20px 20px;
+  z-index: 999;
+}
+
+#content {
+  z-index: 99;
+}
+
+#resposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
+
+  margin-top: 30px;
+  margin-bottom: 40px;
+
+  transition: opacity 1s;
+}
+
+#container {
+  margin-top: 100px;
+  width: 80%;
+  max-width: 400px;
+  margin-inline: auto;
+}
